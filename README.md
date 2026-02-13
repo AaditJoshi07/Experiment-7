@@ -90,7 +90,21 @@ If equal, print "Palindrome"; otherwise, "Not Palindrome".
 
 ---
 
-6. Count Digits
+ 6.String Palindrome Check (Two-Pointer Method): -
+
+Initialize: Set string $s$, pointers $i=0$ and $j=len(s)-1$,
+
+flag is_palindrome = True.Loop: While $i < j$, check if characters at these positions match.
+
+Mismatch: If $s[i] \neq s[j]$, set is_palindrome = False and break.
+
+Update: Increment $i$ and decrement $j$ to move toward the center.
+
+Result: If the flag remains True, print "Palindrome"; otherwise, print "Not palindrome".
+
+---
+
+7. Count Digits
    
 Input num and set count = 0.
 
@@ -104,7 +118,7 @@ Print the count.
 
 ---
 
-7. Linear Search (with Break)
+8. Linear Search (with Break)
    
 Initialize a list and a found flag as False.
 
@@ -116,7 +130,7 @@ After the loop, check the found flag to print the result.
 
 ---
 
-8. Odd Numbers (with Continue)
+9. Odd Numbers (with Continue)
    
 Initialize i = 0.
 
